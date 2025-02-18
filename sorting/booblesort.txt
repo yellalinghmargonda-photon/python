@@ -1,0 +1,17 @@
+array = [5, 3, 8, 4, 2]
+
+Steps:
+Pass 1:
+
+Compare 5 and 3 → Swap → [3, 5, 8, 4, 2]
+Compare 5 and 8 → No swap → [3, 5, 8, 4, 2]
+Compare 8 and 4 → Swap → [3, 5, 4, 8, 2]
+Compare 8 and 2 → Swap → [3, 5, 4, 2, 8]
+Largest element 8 is now at the correct position. last element is placed at the last location after first pass
+
+Pass 2:
+
+Compare 3 and 5 → No swap → [3, 5, 4, 2, 8]
+Compare 5 and 4 → Swap → [3, 4, 5, 2, 8]
+Compare 5 and 2 → Swap → [3, 4, 2, 5, 8]
+Second largest element 5 is now at the correct position. second last element is placed at the last location after first pass

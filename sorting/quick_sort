@@ -1,0 +1,25 @@
+Example
+Input:
+array = [8, 3, 7, 6, 2, 5]
+
+Steps:
+Choose Pivot:
+
+Let's choose 5 as the pivot.
+Partition:
+
+Rearrange elements so that elements < 5 are on the left and elements > 5 are on the right.
+Partitioned array: [3, 2, 5, 8, 7, 6].
+Recurse:
+
+Left sub-array: [3, 2]
+Choose 2 as the pivot.
+Partition: [2, 3].
+Right sub-array: [8, 7, 6]
+Choose 6 as the pivot.
+Partition: [6, 7, 8].
+Combine:
+
+Combine the sorted sub-arrays: [2, 3] + [5] + [6, 7, 8].
+Output:
+[2, 3, 5, 6, 7, 8]

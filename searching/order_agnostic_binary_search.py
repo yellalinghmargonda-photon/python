@@ -1,0 +1,1 @@
+#compare first and last number and check which is greater, if first is greater the last then its sorted in decending order apply the decending order sorted. if first is less then last then ascending order then apply asscending order search

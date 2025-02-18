@@ -1,0 +1,73 @@
+Input:
+array = [5, 3, 8, 4, 2]
+
+Steps:
+Initial Array: [5, 3, 8, 4, 2]
+
+Find the smallest element (2).
+Swap 2 with the first element (5).
+Array after swap: [2, 3, 8, 4, 5].
+Second Pass:
+
+Unsorted portion: [3, 8, 4, 5].
+Find the smallest element (3).
+Swap 3 with itself (no change).
+Array remains: [2, 3, 8, 4, 5].
+Third Pass:
+
+Unsorted portion: [8, 4, 5].
+Find the smallest element (4).
+Swap 4 with 8.
+Array after swap: [2, 3, 4, 8, 5].
+Fourth Pass:
+
+Unsorted portion: [8, 5].
+Find the smallest element (5).
+Swap 5 with 8.
+Array after swap: [2, 3, 4, 5, 8].
+Sorted Array:
+
+[2, 3, 4, 5, 8].
+
+Time Complexity:
+
+Best case:
+𝑂
+(
+𝑛
+2
+)
+O(n
+2
+ ).
+Average case:
+𝑂
+(
+𝑛
+2
+)
+O(n
+2
+ ).
+Worst case:
+𝑂
+(
+𝑛
+2
+)
+O(n
+2
+ ).
+Space Complexity:
+
+𝑂
+(
+1
+)
+O(1), as it sorts in place without needing additional memory.
+Stability:
+
+Selection Sort is not stable, as it can reorder equal elements during swaps.
+Use Case:
+
+Suitable for small datasets or when memory usage is a concern.
